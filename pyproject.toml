@@ -1,0 +1,16 @@
+[project]
+name = "notificataions"
+version = "0.1.0"
+description = "A notification service that listens to an event stream and sends notifications."
+readme = "readme.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["src/tests"]
